@@ -1,0 +1,37 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+client/dist/
+server/dist/
+
+# SQLite databases and recovery files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+server/data-recovery-*/
+server/data-integrity-test/
+server/data-recovery-attempt*/
+server/data-recovery-diagnostic-*/
+server/data-recovery-main-only-test/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local npm cache
+.npm-cache/
